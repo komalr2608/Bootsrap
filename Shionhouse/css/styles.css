@@ -1,0 +1,540 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.bg {
+  background-color: #fff;
+}
+
+.hero {
+  height: 100%;
+}
+
+.hero-inner .carousel-item {
+  height: 90vh;
+}
+
+.hero-inner .carousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.carousel-caption-fixed {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #fff;
+  z-index: 10;
+}
+
+.carousel-caption-fixed h1 {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.custom-button {
+  background-color: #9f78ff;
+  border: none;
+  padding: 10px 25px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 4px;
+}
+
+.custom-button:hover {
+  background-color: #9470ee;
+}
+
+.product {
+  border: 1px solid #f1efef;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  padding: 0 !important;
+}
+
+.product:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+  border-color: #ccc;
+}
+
+.product-img {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  padding: 0 !important;
+}
+
+.favorit-items {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 10;
+}
+
+.favorit-items img {
+  width: 45px;
+  height: 45px;
+  display: block;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.favorit-items img:hover {
+  transform: scale(1.2);
+}
+
+.new-arrival-text h2 {
+  padding: 0px 40px;
+  font-size: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.collection {
+  width: 100%;
+  height: 50vh;
+  background-image: url(../Images/section_bg01.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+
+}
+
+.collection-text {
+  position: absolute;
+  top: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0px 10px;
+}
+.collection-text h2{
+ font-size: 28px;
+ text-transform: uppercase;
+ font-weight: 400;
+}
+
+.btn-custom {
+  color: #9470ee;
+  border: 1px solid #9470ee;
+  border-radius: 5px;
+  background-color: transparent;
+  transition: all 0.3s ease;
+  font-size: 18px;
+  padding: 15px 40px;
+  display: block;
+  margin: 0 auto; /* ✅ centers the button horizontally */
+  text-align: center;
+}
+
+.btn-custom:hover {
+  background-color: #9470ee;
+  color: #fff;
+}
+.popular-product {
+  position: relative;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Image wrapper */
+.loaction-img {
+  position: relative;
+  width: 100%;
+}
+
+.loaction-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Overlay content */
+.loaction-details {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  color: white;
+}
+
+.loaction-details p {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.loaction-details .btn {
+  font-size: 16px;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+/* Mobile (default): full width */
+.popular-product .col-12 {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: #1d2547;
+  /* Dark background */
+  color: #fff;
+}
+
+.footer h5 {
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+}
+
+.footer-links a {
+  display: block;
+  padding: 4px 0;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #f8b400;
+  /* Accent color on hover */
+}
+
+.footer ul li {
+  font-size: 0.9rem;
+}
+.category-area{
+  background-color: #f7f7fd;
+  padding: 80px 20px;
+}
+
+.footer-social a {
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 14px;
+  display: inline-flex;            /* Flexbox instead of inline-block */
+  align-items: center;             /* Vertically center */
+  justify-content: center;         /* Horizontally center */
+  margin-right: 8px;
+  border: 1px solid #fff;          /* add visible border color */
+  text-decoration: none;           /* optional: remove underline */
+}
+ .image-card {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Image zoom */
+.image-card img {
+  transition: transform 0.5s ease;
+}
+.image-card:hover img {
+  transform: scale(1.1);
+}
+
+/* Overlay (bottom-up but only 40%) */
+.overlay {
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  height: 20%;
+  background: rgba(0, 0, 0, 0.6);
+  transition: all 0.6s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-card:hover .overlay {
+  bottom: 0;
+}
+
+/* Overlay text */
+.overlay-content {
+  color: #fff;
+  transform: translateY(20px);
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+.overlay-content h5{
+  font-size: 34px;
+}
+
+.image-card:hover .overlay-content {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Center button */
+.center-btn {
+   background-color: #9f78ff;
+  border: none;
+  padding: 10px 25px;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 4px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+.center-btn:hover{
+  background-color: #9470ee;
+}
+
+.image-card:hover .center-btn {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1.05);
+}
+
+/* Tablet (min-width: 768px) */
+@media (min-width: 768px) {
+  .carousel-caption-fixed {
+    width: 50%;
+    top: 50%;
+    left: 25%;
+  }
+
+  .carousel-caption-fixed h1 {
+    font-size: 54px;
+  }
+
+  .carousel-caption-fixed .btn {
+    padding: 10px 30px;
+  }
+
+  .new-arrival {
+    display: block;
+    justify-items: center;
+  }
+
+  .new-arrival-text {
+    width: 40%;
+    text-align: center;
+  }
+
+  .new-arrival-text h2 {
+    font-size: 42px;
+  }
+
+  .collection {
+  height: 90vh;
+}
+
+.collection-text {
+  top: 30%;
+}
+.collection-text h2{
+  font-size: 64px;
+}
+
+  .loaction-details p {
+    font-size: 20px;
+  }
+
+  .loaction-details .btn {
+    font-size: 16px;
+    padding: 12px 35px;
+  }
+}
+
+/* Desktop (min-width: 992px) */
+@media (min-width: 992px) {
+  /* Fix navbar and style */
+.navbar {
+  z-index: 999;
+}
+
+/* Space between nav items */
+.navbar-nav .nav-item {
+  margin: 0 15px;
+}
+
+/* Hover color change */
+.navbar-nav .nav-link {
+  color: #000;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #9470ee; /* your desired hover color */
+}
+
+/* Hide dropdown arrow */
+.nav-item.dropdown > .nav-link::after {
+  display: none !important;
+}
+
+/* Show dropdown on hover */
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Dropdown styling */
+.dropdown-menu {
+  margin-top: 0;
+  border-radius: 0.5rem;
+  border: none;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+  .carousel-caption-fixed {
+    width: 40%;
+    left: 30%;
+  }
+
+  .carousel-caption-fixed h1 {
+    font-size: 80px;
+  }
+
+  .collection {
+    height: 100vh;
+  }
+  .collection-text{
+    width: 60%;
+    left: 20%;
+  }
+  .collection-text h2{
+    font-size: 68px;
+}
+  .popular-product .col-lg-6 {
+    position: relative;
+  }
+.loaction-details {
+ top: 70%;
+}
+  .loaction-details p {
+    font-size: 32px;
+  }
+  .loaction-img {
+  position: relative;
+  overflow: hidden; 
+}
+
+.loaction-img img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.6s ease;
+}
+
+/* Zoom effect on hover */
+.loaction-img:hover img {
+  transform: scale(1.2); 
+}
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 30px; /* space between social and search sections */
+}
+
+.header-social {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Anchor (circle background stays same) */
+.header-social a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #fff;
+  border: 1px solid rgba(29, 37, 71, 0.12);
+  text-decoration: none;
+  color: #1D2547;
+  transition: border-color 0.3s ease;
+}
+
+/* Icon default style */
+.header-social a i {
+  font-size: 16px;
+  color: #1D2547;
+  transition: transform 0.5s ease, color 0.3s ease;
+  transform-origin: center;
+}
+
+/* On hover — only icon flips & changes color */
+.header-social a:hover i {
+  transform: rotateY(180deg);
+  color: #9470ee;
+}
+
+
+/* Search + Cart container */
+.header-right .header-search ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px; /* 👈 adds space between search and cart */
+}
+
+/* Search icon */
+.header-right .header-search .nav-search i {
+  color: #1D2547;
+  font-size: 18px;
+  background: #F6F8FE;
+  border-radius: 50%;
+  padding: 12px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Cart store pill shape */
+.header-right .card-store {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: #9470ee;
+  color: #fff;
+  border-radius: 50px; /* 👈 makes it a proper pill shape */
+  padding: 8px 16px; /* 👈 horizontal padding for pill look */
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+/* Cart icon */
+.header-right .card-store img {
+  width: 18px;
+  height: 18px;
+}
+
+/* Cart number */
+.header-right .card-store span {
+  color: #fff;
+  font-size: 14px;
+}
+
+/* Optional: hover effect for cart store */
+.header-right .card-store:hover {
+  background-color: #7a5de4;
+}
+
+ 
+
+
+}
