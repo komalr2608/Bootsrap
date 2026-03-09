@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suites-Hotel</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+
+</head>
+
+<body>
+    <header class="header-area position-absolute w-100 top-0">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+
+                <!-- Logo -->
+                <a class="navbar-brand fw-bold text-white" href="index.html">Suites</a>
+
+                <!-- Mobile Toggle -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Menu -->
+                <div class="collapse navbar-collapse" id="mainNavbar">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Rooms</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Standard Room</a></li>
+                                <li><a class="dropdown-item" href="#">Family Room</a></li>
+                                <li><a class="dropdown-item" href="#">Single Room</a></li>
+
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item dropdown-toggle" href="#">Categories</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">America</a></li>
+                                        <li><a class="dropdown-item" href="#">Europe</a></li>
+                                        <li><a class="dropdown-item" href="#">Asia</a></li>
+                                        <li><a class="dropdown-item" href="#">Africa</a></li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </li>
+
+                        <li class="nav-item"><a class="nav-link" href="#">Events</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <!-- ============ HERO SLIDER ============ -->
+    <section class="home-slider owl-carousel">
+
+        <!-- Slide 1 -->
+        <div class="slider-item">
+            <img src="Images/hero_1.jpg" alt="Slide 1" class="slider-img">
+            <div class="container text-center slider-content">
+                <h1>Welcome To Suites</h1>
+                <h2>Hotel & Resort</h2>
+            </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="slider-item">
+            <img src="Images/hero_2.jpg" alt="Slide 2" class="slider-img">
+            <div class="container text-center slider-content">
+                <h1>Unique Experience</h1>
+                <h2>Enjoy With Us</h2>
+            </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="slider-item">
+            <img src="Images/hero_3.jpg" alt="Slide 3" class="slider-img">
+            <div class="container text-center slider-content">
+                <h1>Relaxing Room</h1>
+                <h2>Your Room, Your Stay</h2>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <section class="rooms-section bg-light py-5">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-6 mx-auto text-center mb-5 section-heading">
+                    <h2 class="mb-4">Our Rooms</h2>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <!-- Room 1 -->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="hotel-room text-center">
+                        <a href="#" class="d-block mb-3">
+                            <img src="images/img_1.jpg" alt="Standard Room" class="img-fluid ">
+                        </a>
+                        <div class="hotel-room-body">
+                            <h3 class="heading mb-1"><a href="#">Standard Room</a></h3>
+                            <strong class="price">$350.00 / per night</strong>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Room 2 -->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="hotel-room text-center">
+                        <a href="#" class="d-block mb-3">
+                            <img src="images/img_2.jpg" alt="Family Room" class="img-fluid ">
+                        </a>
+                        <div class="hotel-room-body">
+                            <h3 class="heading mb-1"><a href="#">Family Room</a></h3>
+                            <strong class="price">$400.00 / per night</strong>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Room 3 -->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="hotel-room text-center">
+                        <a href="#" class="d-block mb-3">
+                            <img src="images/img_3.jpg" alt="Single Room" class="img-fluid ">
+                        </a>
+                        <div class="hotel-room-body">
+                            <h3 class="heading mb-1"><a href="#">Single Room</a></h3>
+                            <strong class="price">$255.00 / per night</strong>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Room 4 -->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="hotel-room text-center">
+                        <a href="#" class="d-block mb-3">
+                            <img src="images/img_1.jpg" alt="Deluxe Room" class="img-fluid ">
+                        </a>
+                        <div class="hotel-room-body">
+                            <h3 class="heading mb-1"><a href="#">Deluxe Room</a></h3>
+                            <strong class="price">$150.00 / per night</strong>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Room 5 -->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="hotel-room text-center">
+                        <a href="#" class="d-block mb-3">
+                            <img src="images/img_2.jpg" alt="Luxury Room" class="img-fluid ">
+                        </a>
+                        <div class="hotel-room-body">
+                            <h3 class="heading mb-1"><a href="#">Luxury Room</a></h3>
+                            <strong class="price">$200.00 / per night</strong>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Room 6 -->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="hotel-room text-center">
+                        <a href="#" class="d-block mb-3">
+                            <img src="images/img_3.jpg" alt="Single Room" class="img-fluid ">
+                        </a>
+                        <div class="hotel-room-body">
+                            <h3 class="heading mb-1"><a href="#">Single Room</a></h3>
+                            <strong class="price">$155.00 / per night</strong>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <!-- Left Side Images -->
+                <div class="col-md-6 mb-5 mb-md-0 position-relative">
+
+                    <div class="img-border">
+                        <a href="https://vimeo.com/28959265" class="popup-vimeo image-play">
+                            <span class="icon-wrap">
+                                <span><i class="fa-solid fa-play"></i></span>
+                            </span>
+                            <img src="images/img_2.jpg" alt="Main Image" class="img-fluid">
+                        </a>
+                    </div>
+
+                    <img src="images/img_1.jpg" alt="Overlay Image" class="img-fluid image-absolute">
+
+                </div>
+
+                <div class="col-md-5 ms-auto">
+                    <div class="section-heading text-left">
+                        <h2 class="mb-4">About Us</h2>
+                    </div>
+
+                    <p class=" about-text mb-4">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Odit nobis magni eaque velit eum, id rem eveniet dolor possimus voluptas.
+                    </p>
+
+                    <p class="about-text">
+                        <a href="#">
+                            Watch Video
+                            <span><i class="fa-solid fa-arrow-right"></i></span>
+                        </a>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="hotel-features" class="py-5">
+        <div class="container">
+
+            <!-- Heading -->
+            <div class="row">
+                <div class="col-md-6 mx-auto text-center mb-5 section-heading">
+                    <h2 class="mb-4">Hotel Features</h2>
+                </div>
+            </div>
+
+            <!-- Features Grid -->
+             <div class="row g-4">
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="feature-card text-center p-4">
+                    <i class="fas fa-person-swimming display-3 mb-3 d-block"></i>
+                    <h2 class="h5">Swimming Pool</h2>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="feature-card text-center p-4">
+                    <i class="fas fa-concierge-bell display-3 mb-3 d-block "></i>
+                    <h2 class="h5">Hotel Teller</h2>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="feature-card text-center p-4">
+                    <i class="fas fa-person-running display-3 mb-3 d-block "></i>
+                    <h2 class="h5">Fire Exit</h2>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="feature-card text-center p-4">
+                    <i class="fas fa-square-parking display-3 mb-3 d-block "></i>
+                    <h2 class="h5">Car Parking</h2>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="feature-card text-center p-4">
+                    <i class="fas fa-wind display-3 mb-3 d-block "></i>
+                    <h2 class="h5">Hair Dryer</h2>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="feature-card text-center p-4">
+                    <i class="fas fa-wine-bottle display-3 mb-3 d-block "></i>
+                    <h2 class="h5">Minibar</h2>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="feature-card text-center p-4">
+                    <i class="fas fa-martini-glass display-3 mb-3 d-block"></i>
+                    <h2 class="h5">Drinks</h2>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="feature-card text-center p-4">
+                    <i class="fas fa-taxi display-3 mb-3 d-block"></i>
+                    <h2 class="h5">Car Airport</h2>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <section class="gallery-area py-5">
+        <div class="site-section">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-6 mx-auto text-center mb-5 section-heading">
+                        <h2 class="mb-4">Our Gallery</h2>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-12 col-md-6 col-lg-3 p-0">
+                        <a href="images/img_1.jpg" class="gallery-item">
+                            <img src="images/img_1.jpg" class="img-fluid gallery-img" alt="">
+                        </a>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3 p-0">
+                        <a href="images/img_2.jpg" class="gallery-item">
+                            <img src="images/img_2.jpg" class="img-fluid gallery-img" alt="">
+                        </a>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3 p-0">
+                        <a href="images/img_3.jpg" class="gallery-item">
+                            <img src="images/img_3.jpg" class="img-fluid gallery-img" alt="">
+                        </a>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3 p-0">
+                        <a href="images/img_4.jpg" class="gallery-item">
+                            <img src="images/img_4.jpg" class="img-fluid gallery-img" alt="">
+                        </a>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3 p-0">
+                        <a href="images/img_5.jpg" class="gallery-item">
+                            <img src="images/img_5.jpg" class="img-fluid gallery-img" alt="">
+                        </a>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3 p-0">
+                        <a href="images/img_6.jpg" class="gallery-item">
+                            <img src="images/img_6.jpg" class="img-fluid gallery-img" alt="">
+                        </a>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3 p-0">
+                        <a href="images/img_7.jpg" class="gallery-item">
+                            <img src="images/img_7.jpg" class="img-fluid gallery-img" alt="">
+                        </a>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3 p-0">
+                        <a href="images/img_4.jpg" class="gallery-item">
+                            <img src="images/img_4.jpg" class="img-fluid gallery-img" alt="">
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="upcoming-events" class="py-5">
+        <div class="site-section block-15">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-6 mx-auto text-center mb-5 section-heading">
+                        <h2>Upcoming Events</h2>
+                    </div>
+                </div>
+
+                <div class="owl-carousel event-carousel">
+
+                    <div class="event-card">
+                        <div class="img-border-sm mb-4">
+                            <img src="images/img_1.jpg" class="img-fluid" alt="">
+                        </div>
+                        <h2 class="heading mb-0"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h2>
+                        <span class="mb-3 d-block post-date">Dec 20th, 2018 • By <a href="#">Admin</a></span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolores culpa qui aliquam
+                            placeat nobis veritatis tempora natus rerum obcaecati.</p>
+                    </div>
+
+                    <div class="event-card">
+                        <div class="img-border-sm mb-4">
+                            <img src="images/img_2.jpg" class="img-fluid" alt="">
+                        </div>
+                        <h2 class="heading mb-0"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h2>
+                        <span class="mb-3 d-block post-date">Dec 20th, 2018 • By <a href="#">Admin</a></span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolores culpa qui aliquam
+                            placeat nobis veritatis tempora natus rerum obcaecati.</p>
+                    </div>
+
+                    <div class="event-card">
+                        <div class="img-border-sm mb-4">
+                            <img src="images/img_3.jpg" class="img-fluid" alt="">
+                        </div>
+                        <h2 class="heading mb-0"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h2>
+                        <span class="mb-3 d-block post-date">Dec 20th, 2018 • By <a href="#">Admin</a></span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolores culpa qui aliquam
+                            placeat nobis veritatis tempora natus rerum obcaecati.</p>
+                    </div>
+
+                    <div class="event-card">
+                        <div class="img-border-sm mb-4">
+                            <img src="images/img_1.jpg" class="img-fluid" alt="">
+                        </div>
+                        <h2 class="heading mb-0"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h2>
+                        <span class="mb-3 d-block post-date">Dec 20th, 2018 • By <a href="#">Admin</a></span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolores culpa qui aliquam
+                            placeat nobis veritatis tempora natus rerum obcaecati.</p>
+                    </div>
+
+                    <div class="event-card">
+                        <div class="img-border-sm mb-4">
+                            <img src="images/img_1.jpg" class="img-fluid" alt="">
+                        </div>
+                        <h2 class="heading mb-0"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h2>
+                        <span class="mb-3 d-block post-date">Dec 20th, 2018 • By <a href="#">Admin</a></span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolores culpa qui aliquam
+                            placeat nobis veritatis tempora natus rerum obcaecati.</p>
+                    </div>
+
+                    <div class="event-card">
+                        <div class="img-border-sm mb-4">
+                            <img src="images/img_1.jpg" class="img-fluid" alt="">
+                        </div>
+                        <h2 class="heading mb-0"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h2>
+                        <span class="mb-3 d-block post-date">Dec 20th, 2018 • By <a href="#">Admin</a></span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolores culpa qui aliquam
+                            placeat nobis veritatis tempora natus rerum obcaecati.</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="testimonial-section bg-light">
+        <div class="site-section block-14">
+
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-6 mx-auto text-center mb-5 section-heading">
+                        <h2>What People Say</h2>
+                    </div>
+                </div>
+
+                <div class="nonloop-block-14 owl-carousel">
+                    <div class="p-4">
+                        <div class="d-flex block-testimony">
+                            <div class="person me-3">
+                                <img src="images/person_1.jpg" alt="Person">
+                            </div>
+                            <div>
+                                <h2 class="h5">Katie Johnson</h2>
+                                <blockquote>
+                                    “Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias accusantium qui
+                                    optio, possimus necessitatibus voluptate aliquam velit nostrum tempora ipsam!”
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-4">
+                        <div class="d-flex block-testimony">
+                            <div class="person me-3">
+                                <img src="images/person_2.jpg" alt="Person">
+                            </div>
+                            <div>
+                                <h2 class="h5">Jane Mars</h2>
+                                <blockquote>
+                                    “Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias accusantium qui
+                                    optio, possimus necessitatibus voluptate aliquam velit nostrum tempora ipsam!”
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-4">
+                        <div class="d-flex block-testimony">
+                            <div class="person me-3">
+                                <img src="images/person_3.jpg" alt="Person">
+                            </div>
+                            <div>
+                                <h2 class="h5">Shane Holmes</h2>
+                                <blockquote>
+                                    “Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias accusantium qui
+                                    optio, possimus necessitatibus voluptate aliquam velit nostrum tempora ipsam!”
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-4">
+                        <div class="d-flex block-testimony">
+                            <div class="person me-3">
+                                <img src="images/person_4.jpg" alt="Person">
+                            </div>
+                            <div>
+                                <h2 class="h5">Mark Johnson</h2>
+                                <blockquote>
+                                    “Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias accusantium qui
+                                    optio, possimus necessitatibus voluptate aliquam velit nostrum tempora ipsam!”
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="site-footer bg-dark text-white">
+        <div class="container py-5">
+
+            <div class="row gy-4">
+
+                <div class="col-12 col-md-4">
+                    <h3 class="footer-heading mb-3">About</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat quos rem ullam, placeat amet.
+                    </p>
+                    <div class="cust-btn"><a href="#" class="btn read">Read More</a></div>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <div class="row gy-4">
+
+                        <div class="col-6">
+                            <h3 class="footer-heading mb-3">Quick Menu</h3>
+                            <ul class="footer-list list-unstyled">
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Approach</a></li>
+                                <li><a href="#">Sustainability</a></li>
+                                <li><a href="#">News</a></li>
+                                <li><a href="#">Careers</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-6">
+                            <h3 class="footer-heading mb-3">Ministries</h3>
+                            <ul class="footer-list list-unstyled">
+                                <li><a href="#">Children</a></li>
+                                <li><a href="#">Women</a></li>
+                                <li><a href="#">Bible Study</a></li>
+                                <li><a href="#">Church</a></li>
+                                <li><a href="#">Missionaries</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-2">
+                    <h3 class="footer-heading mb-3">Social</h3>
+                    <p class="footer-social">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-vimeo-v"></i></a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="copyright text-center mt-4 pt-4 border-top">
+                <div class="col-12">
+                    <p class="mb-0">
+                        Copyright © 2025
+                        All Rights Reserved | Made with <i class="fa-sharp fa-solid fa-heart"></i> by
+                        <a href="#" target="_blank" class="text-primary">Colorlib</a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+    <!-- jQuery (Required by Owl Carousel) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Bootstrap Bundle JS (if not added yet) -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- Initialize Owl Carousel -->
+    <script src="js/main.js"></script>
+
+
+
+</body>
+
+</html>
